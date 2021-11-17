@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+ .container {
+	 max-width: 1100px;
+	 min-width: 400px;
+	 margin: auto;
+}
+ .title {
+	 margin: 0 0 30px;
+}
+ .results {
+	 display: flex;
+}
+/* display wins and losses */
+ .scorecard {
+	 border: 1px solid #fff;
+	 padding: 10px;
+	 margin-right: 30px;
+   font-weight: bold;
+}
+ .buttons {
+	 display: flex;
+	 align-items: center;
+}
+ button {
+	 margin-left: 20px;
+	 padding: 7px 20px;
+}
+ .doors {
+	 display: flex;
+	 justify-content: space-between;
+	 margin: 30px 0;
+}
+/* doors */
+ .door {
+	 border: 6px solid transparent;
+	 cursor: pointer;
+	 width: 30%;
+	 height: 500px;
+	 position: relative;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+
+ .door--1 {
+	 background: #8b4513;
+	 
+}
+ .door--2 {
+	 background: #8b4513
+	 
+}
+ .door--3 {
+	 background: #8b4513;
+	 
+}
+ .door--selected {
+	 border-color: blue
+}
+ .prize {
+	 font-size: 20px;
+	 font-weight: bold;
+}
+ .icon {
+	 font-size: 28px;
+}
+ .hint {	 
+	 font-size: 20px;
+	 width: 120px;
+	 text-align: center;
+   font-weight: bold;
+}
+ 
